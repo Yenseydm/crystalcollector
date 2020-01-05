@@ -1,7 +1,7 @@
 body {
-    /* background-image: url(../images/background.gif);
-    background-repeat: repeat; */
-    background-color: black;
+    background-image: url(../images/background.gif);
+    background-repeat: repeat;
+    /* background-color: black; */
 }
 
 h1 {
@@ -68,7 +68,7 @@ h3 {
 
 .gems {
     width: 350px;
-    height: 350px;
+    height: 300px;
 }
 
 .column {
@@ -81,4 +81,11 @@ h3 {
     content: "";
     display: table;
     clear: both;
+}
+
+.gemsBox {
+    /* background-color: black;
+    border: blanchedalmond;
+    border-width: 10px;
+    border-style: groove; */
 }
