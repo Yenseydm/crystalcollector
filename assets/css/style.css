@@ -1,4 +1,83 @@
 body {
-    background-image: url(../images/background.gif);
-    background-repeat: repeat;
+    /* background-image: url(../images/background.gif);
+    background-repeat: repeat; */
+    background-color: black;
+}
+
+h1 {
+    color: blanchedalmond;
+    font-size: 100px;
+    /* font-family: 'Jolly Lodger', cursive;  */
+    font-family: 'Jolly Lodger', cursive;
+    text-align: center;
+}
+
+h3 {
+    color: blanchedalmond;
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+}
+.directions {
+    color: blanchedalmond;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+}
+
+#randomScore {
+    color: blanchedalmond;
+    font-size: 30px;
+    font-family: 'Cabin Sketch', cursive;
+    background-color: rgb(111, 126, 211, 0.2);
+    margin: 30px;
+    padding: 20px;
+    width: 300px;
+    height: 165px;
+}
+
+#boxTwo {
+    color: blanchedalmond;
+    font-size: 30px;
+    font-family: 'Cabin Sketch', cursive;
+    background-color: rgb(111, 126, 211, 0.2);
+    margin: 30px;
+    margin-left: 100px;
+    padding: 20px;
+    width: 300px;
+    height: 165px;
+}
+
+#finalScore {
+    color: blanchedalmond;
+    font-size: 30px;
+    font-family: 'Cabin Sketch', cursive;
+    background-color: rgb(111, 126, 211, 0.2);
+    margin: 30px;
+    padding: 20px;
+    width: 300px;
+    height: 165px;
+}
+
+#content{
+    background-color: rgb(111, 126, 211, 0.2);
+    margin: 40px;
+    padding: 30px;
+    width: 900px;
+    margin-left: 210px;;
+}
+
+.gems {
+    width: 350px;
+    height: 350px;
+}
+
+.column {
+    float: left;
+    width: 30%;
+   
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
 }
