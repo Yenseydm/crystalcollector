@@ -1,16 +1,4 @@
 
-// randomly show a score when game starts
-// scores are between: 19-120
-
-// four crystals with random number each
-// when crystals are clicked it adds it to your total score
-// scores are between: 1-12
-
-//match your score to random number 
-//once matched then you win
-// if over then you lose
-
-// when game is over then all numbers reset and your score is back to 0
 $(document).ready(() => { 
 
     var randomScore = Math.floor((Math.random() * 120) + 19);
