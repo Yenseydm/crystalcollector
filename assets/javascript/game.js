@@ -34,12 +34,12 @@ $(document).ready(() => {
         $('#finalScore').text(yourScore);
         if (yourScore === randomScore) {
             wins++;
-            $('#wins').text(wins);
+            $('#wins').text("Wins: " + wins);
             reset();
             resetGame();
         } else if (yourScore > randomScore) {
             losses++;
-            $('#losses').text(losses);
+            $('#losses').text("Losses: " + losses);
             reset();
             resetGame();
         }
@@ -50,12 +50,12 @@ $(document).ready(() => {
         $('#finalScore').text(yourScore);
         if (yourScore === randomScore) {
             wins++;
-            $('#wins').text(wins);
+            $('#wins').text("Wins: " + wins);
             reset();
             resetGame();
         } else if (yourScore > randomScore) {
             losses++;
-            $('#losses').text(losses);
+            $('#losses').text("Losses: " + losses);
             reset();
             resetGame();
         }
@@ -66,12 +66,12 @@ $(document).ready(() => {
         $('#finalScore').text(yourScore);
         if (yourScore === randomScore) {
             wins++
-            $('#wins').text(wins);
+            $('#wins').text("Wins: " + wins);
             reset();
             resetGame();
         } else if (yourScore > randomScore) {
             losses++;
-            $('#losses').text(losses);
+            $('#losses').text("Losses: " + losses);
             reset();
             resetGame();
         }
@@ -82,12 +82,12 @@ $(document).ready(() => {
         $('#finalScore').text(yourScore);
         if (yourScore === randomScore) {
             wins++
-            $('#wins').text(wins);
+            $('#wins').text("Wins: " + wins);
             reset();
             resetGame();
         } else if (yourScore > randomScore) {
             losses++
-            $('#losses').text(losses);
+            $('#losses').text("Losses: " + losses);
             reset();
             resetGame();
         }
