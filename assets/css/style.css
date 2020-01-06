@@ -62,6 +62,7 @@ h3 {
     background-color: rgb(111, 126, 211, 0.2);
     margin: 40px;
     padding: 30px;
+    padding-top: .5px;
     width: 900px;
     margin-left: 210px;;
 }
@@ -84,8 +85,5 @@ h3 {
 }
 
 .gemsBox {
-    /* background-color: black;
-    border: blanchedalmond;
-    border-width: 10px;
-    border-style: groove; */
+   margin-top: 30px;
 }
