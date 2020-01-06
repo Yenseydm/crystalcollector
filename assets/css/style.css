@@ -22,16 +22,28 @@ h3 {
     font-size: 30px;
     font-family: 'Amatic SC', cursive;
 }
-
-#randomScore {
-    color: blanchedalmond;
+#goalscore{
+    padding: 0px;
+    margin: 0px;
     font-size: 30px;
+}
+
+#randomScore{
+    padding: 0px;
+    margin: 0px;
+    font-size: 100px;
+    
+}
+#boxOne {
+    color: blanchedalmond;
     font-family: 'Cabin Sketch', cursive;
     background-color: rgb(111, 126, 211, 0.2);
     margin: 30px;
+    margin-left: 5px;
     padding: 20px;
     width: 300px;
     height: 165px;
+    text-align: center;
 }
 
 #boxTwo {
@@ -46,17 +58,6 @@ h3 {
     height: 165px;
 }
 
-#finalScore {
-    color: blanchedalmond;
-    font-size: 30px;
-    font-family: 'Cabin Sketch', cursive;
-    background-color: rgb(111, 126, 211, 0.2);
-    margin: 30px;
-    margin-left: 5px;
-    padding: 20px;
-    width: 300px;
-    height: 165px;
-}
 
 #content{
     background-color: rgb(111, 126, 211, 0.2);
@@ -86,4 +87,28 @@ h3 {
 
 .gemsBox {
    margin-top: 30px;
+}
+
+#scoretitle {
+    font-size: 30px;
+    margin: 0;
+    padding: 0px;
+}
+
+#finalScore{
+    padding: 0px;
+    margin: 0px;
+    font-size: 100px;
+}
+
+.scorebox {
+    color: blanchedalmond;
+    font-family: 'Cabin Sketch', cursive;
+    background-color: rgb(111, 126, 211, 0.2);
+    margin: 30px;
+    margin-left: 5px;
+    padding: 20px;
+    width: 300px;
+    height: 165px;
+    text-align: center;
 }
