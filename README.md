@@ -1,4 +1,4 @@
-# unit-4-game
+# Crystal Collector
 
 <p>
   This is a web application game that gives the user a random number at the start of the game. 
